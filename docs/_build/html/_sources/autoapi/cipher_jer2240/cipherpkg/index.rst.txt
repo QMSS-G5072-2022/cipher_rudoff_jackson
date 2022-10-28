@@ -1,0 +1,47 @@
+:py:mod:`cipher_jer2240.cipherpkg`
+==================================
+
+.. py:module:: cipher_jer2240.cipherpkg
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   cipher_jer2240.cipherpkg.cipher
+
+
+
+.. py:function:: cipher(text, shift, encrypt=True)
+
+   Encrypts or decrypts a Caeser cipher.
+
+   :param text: Input string to be either encrypted or decrypted.
+   :type text: string
+   :param shift: Integer value indicating the alphabet shift for the replacement. Can be positive for negative.
+   :type shift: integer
+   :param encrypt: Boolean value determining whether the function encrypts or decrypts 'text'. Defaults to 'True', use false to decrypt.
+   :type encrypt: bool
+
+   :returns: The encrypted or decrypted 'text'.
+   :rtype: string
+
+   .. rubric:: Examples
+
+   Encryption:
+
+   >>> from cipher_jer2240 import cipherpkg
+   >>> cipherpkg.cipher('text', 5, encrypt = True)
+   'yjCy'
+
+   Decryption:
+   >>> from cipher_jer2240 import cipherpkg
+   >>> cipherpkg.cipher('yjCy', 5, encrypt = False)
+   'text'
+
+

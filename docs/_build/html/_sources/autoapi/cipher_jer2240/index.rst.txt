@@ -1,0 +1,23 @@
+:py:mod:`cipher_jer2240`
+========================
+
+.. py:module:: cipher_jer2240
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   cipherpkg/index.rst
+
+
+Package Contents
+----------------
+
+.. py:data:: __version__
+   
+
+   
+
